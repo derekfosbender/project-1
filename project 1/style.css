@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    text-align: center;
+}
+.button-container {
+    position: relative;
+    width: 40%;
+}
+.alien-img {
+    width: 1350px;
+    height: 805px;
+}
+.end-img {
+    width: 1350px;
+    height: 750px;
+}
+#scoreboard {
+    position: relative;
+}
+.beign-game {
+    font-size: xx-large;
+    position: absolute;
+    padding: 35px;
+    background-color: rgb(193, 238, 231);
+    border-radius: 16px;
+    bottom: 50px;
+    left: 100px;
+    width: 150px;
+}
+
+#gaming-screen {
+    display: none;
+    width: 1350px;
+    height: 500px;
+    align-content: center;
+    padding: 20px 0px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(bg.webp);
+    background-position: 0 0;
+    background-size: auto 100%;
+    background-repeat: repeat;
+    animation: gaming-screen 50s linear infinite;
+}
+@keyframes gaming-screen {
+    to {
+      background-position: 0 0;
+    }
+    from {
+        background-position: 10000px 0;
+    }
+  }
+  .rery-button {
+    font-size: xx-large;
+    position: absolute;
+    padding: 35px;
+    background-color: rgb(243, 239, 189);
+    border-radius: 16px;
+    bottom: 50px;
+    left: 1100px;
+    width: 175px;
+}
+#the-end {
+    display: none;
+}
